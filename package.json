@@ -1,0 +1,19 @@
+{
+  "name": "profiler",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "profiler": "node profiler.js"
+  },
+  "dependencies": {
+    "coloured": "^0.2.0",
+    "core-js": "^3.6.5",
+    "node": "^16.5.0",
+    "prompt": "^1.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
