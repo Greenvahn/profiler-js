@@ -1,4 +1,4 @@
-# Node js profiler
+# Profiler-js
 Small node js application to read, write and remove profiles from a single data file.
 
 Run the application from your termainal an follow the steps. Each profile is contains _Name, Surname and age_ and is read from the sample **_people.txt_** file.
