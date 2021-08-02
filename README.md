@@ -1,11 +1,11 @@
 # Node js profiler
 Small node js application to read, write and remove profiles from a single data file.
 
-Each profile is contains _Name, Surname and age_.
+Run the application from your termainal an follow the steps. Each profile is contains _Name, Surname and age_ and is read from the sample **_people.txt_** file.
 
 The data file can be easily converted into a .CSV file since is a comma separated file.
 
-There is an example data file ( **_people.txt_** ) inside of the _data_ folder. Feel free to change the name of the data file but remember to update the _path_ instance in **profiler.js**
+There is an initial **_people.txt_** as sample file - it can be found inside of the _data_ folder. Feel free to change the name of the data file but remember to update the _path_ instance in **profiler.js**
 ```
 const pathFile = path.join(__dirname, "data/people.txt");
 ```
